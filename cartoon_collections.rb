@@ -1,6 +1,6 @@
 def roll_call_dwarves(dwarves)
   dwarves.each_with_index do |dwarf, index|
-    puts "#{index}. {dwarves}"
+    puts "#{index + 1}. {dwarves}"
 end
 
 def summon_captain_planet(veggies)
